@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-bg: 248 250 252;
+    --color-fg: 15 23 42;
+  }
+  .dark {
+    --color-bg: 2 6 23;
+    --color-fg: 248 250 252;
+  }
+}
+

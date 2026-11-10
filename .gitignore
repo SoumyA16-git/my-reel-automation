@@ -1,0 +1,53 @@
+# Dependencies
+node_modules/
+**/node_modules/
+.pnpm-store/
+
+# Build outputs
+dist/
+**/dist/
+build/
+**/build/
+*.js.map
+*.d.ts.map
+
+# Environment
+.env
+.env.local
+.env.production
+.env.*
+!.env.example
+
+# SQLite databases (dev only)
+*.sqlite
+*.sqlite-wal
+*.sqlite-shm
+*.sqlite.enc
+
+# Logs
+logs/
+**/logs/
+*.log
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/settings.json
+.idea/
+
+# TypeScript
+*.tsbuildinfo
+
+# Temp
+tmp/
+**/tmp/
+temp/
+**/temp/
+temp_test_*
+**/temp_test_*
+
+# Secrets
+master_key
+*.key
+*.pem
+
